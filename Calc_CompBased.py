@@ -1,8 +1,8 @@
-def LoopCompsumptionBased(PlcDat):
-    print("Seleccione el tipo de sistema \n 1. On-Grid\n 2. Off-Grid")
-    Dat=input()
+def LoopCompsumptionBased(PlcDat): 
     flag = 0
-    while ( flag == 0):
+    while flag == 0:
+        print("Seleccione el tipo de sistema \n 1. Off-Grid\n 2. On-Grid")
+        Dat=int(input())
         if Dat == 1:
             CompsumptionOffG(PlcDat)
             flag = 1

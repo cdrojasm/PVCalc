@@ -13,9 +13,6 @@ print("Temperatura (kWh/m2):")
 Temp = float(input())
 print("\n")
 
-print("Seleccione el tipo de sistema, \n 1 para Off-Grid \ 2 para On-Grid\n")
-SistTyp = int(input())
-
 PlaceDat = array([HorSP, Temp])
 
 print("Seleccione el tipo de programa:\n")
