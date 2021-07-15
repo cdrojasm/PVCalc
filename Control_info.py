@@ -27,10 +27,10 @@ Select=0
 
 if CalcTyp==1:
     LoopCompsumptionBased(PlaceDat)
-    Select =1
+    Select = 1
 elif CalcTyp == 2:
-    Select=2
+    Select = 2
 elif CalcTyp == 3:
-    Select=3
+    Select = 3
 else:
     print("Opción invalida \n")
